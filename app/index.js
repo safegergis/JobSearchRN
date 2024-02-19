@@ -7,7 +7,6 @@ import {
   Nearbyjobs,
   Popularjobs,
   ScreenHeaderBtn,
-  ScreenheaderBtn,
   Welcome,
 } from "../components";
 
@@ -31,7 +30,9 @@ const Home = () => {
       />
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{ flex: 1, padding: SIZES.medium }}>
-          <Welcome></Welcome>
+          <Welcome />
+          <Popularjobs />
+          <Nearbyjobs />
         </View>
       </ScrollView>
     </SafeAreaView>

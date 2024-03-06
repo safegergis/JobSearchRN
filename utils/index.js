@@ -1,7 +1,8 @@
 export const checkImageURL = (url) => {
   if (!url) return false;
   else {
-    const pattern = new RegExp("/(https?://.*.(?:png|jpg|jpeg|gif))/i", "i");
+    let pattern =
+      /(https?:\/\/.*\.(?:png|jpg|jpeg|gif|webp|svg|bmp|ico|tiff))/i;
     return pattern.test(url);
   }
 };

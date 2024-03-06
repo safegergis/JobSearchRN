@@ -6,7 +6,7 @@ import {
   FlatList,
   ActivityIndicator,
 } from "react-native";
-import { useRouter } from "expo-router";
+import { router, useRouter } from "expo-router";
 
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
@@ -21,8 +21,6 @@ const Popularjobs = () => {
     query: "React Developer",
     num_pagees: 1,
   });
-
-  //console.log(data);
 
   return (
     <View style={styles.container}>
@@ -40,7 +38,14 @@ const Popularjobs = () => {
         ) : (
           <FlatList
             data={data}
-            renderItem={({ item }) => <PopularJobCard item={item} />}
+            renderItem={({ item }) => (
+              <PopularJobCard
+                item={item}
+                handleCardPress={() =>
+                  router.push(`/job-details/${item?.job_id}`)
+                }
+              />
+            )}
             keyExtractor={(item) => item?.job_id}
             contentContainerStyle={{ columnGap: SIZES.medium }}
             horizontal

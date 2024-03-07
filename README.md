@@ -1,5 +1,3 @@
-Absolutely! Here's a comprehensive GitHub README for your job searching app:
-
 **Project Title: JobFinder**
 
 **Description**

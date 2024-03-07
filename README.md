@@ -1,4 +1,4 @@
-**Project Title: JobFinder**
+JobSearchRN
 
 **Description**
 A user-friendly mobile app built with React Native that helps users connect with their dream job. JobFinder leverages the power of the RapidAPI job search API, along with best practices from Adrian Hajdin's tutorials, to deliver a seamless and effective job searching experience. 

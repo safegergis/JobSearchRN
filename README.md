@@ -75,4 +75,3 @@ This project is licensed under the MIT License - see the LICENSE.md: LICENSE.md 
 * A big thank you to Adrian Hajdin for his excellent tutorials and inspiration.
 * The RapidAPI team for providing a valuable job search resource. 
 
-**Let me know if you would like me to refine this further or include additional sections!** 

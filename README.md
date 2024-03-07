@@ -14,6 +14,8 @@ A user-friendly mobile app built with React Native that helps users connect with
    * Provides in-depth job descriptions, company information, and application instructions.
 
 **Screenshots**
+
+
 <img width="367" alt="Screenshot 2024-03-06 at 4 42 58 PM" src="https://github.com/safegergis/JobSearchRN/assets/33107228/51fa17da-e48a-43a4-8180-50d55221fecf">
 <img width="370" alt="Screenshot 2024-03-06 at 4 43 26 PM" src="https://github.com/safegergis/JobSearchRN/assets/33107228/5b5f261b-ea1e-4749-a6df-ae257c6f8680">
 <img width="374" alt="Screenshot 2024-03-06 at 4 43 42 PM" src="https://github.com/safegergis/JobSearchRN/assets/33107228/eec7cb80-10e9-4595-987c-a8be1073aa62">
